@@ -17,7 +17,7 @@ import javax.websocket.server.ServerEndpoint;
 //웹소켓을 통한 실시간 양방향 통신을 가능하게 하는 서버 사이드의 연결점
 @ServerEndpoint("/chatserver") 
 public class WebSocketServer {
-
+//12312321
 	// 현재 채팅 서버에 접속한 클라이언트(WebSocket Session) 목록
 	private static List<Session> list = new ArrayList<Session>();
 	
